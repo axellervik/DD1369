@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T08:50:53.412Z" agent="5.0 (X11)" etag="M1_IQNePPpXXD7OMlnqc" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T09:23:24.728Z" agent="5.0 (X11)" etag="RLAJsLyC3JNAH8FQt_hT" version="17.1.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1372" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="Finsentim" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;labelBackgroundColor=none;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="initialize&#xa;webscraping" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;labelBackgroundColor=none;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-15" y="70" as="sourcePoint" />
           </mxGeometry>
@@ -36,7 +36,7 @@
         <mxCell id="I4kTET7mGh0sbGKaUOuE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" source="I4kTET7mGh0sbGKaUOuE-13" target="I4kTET7mGh0sbGKaUOuE-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="list of articles" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="list of article dictionaries" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="236" as="targetPoint" />
             <mxPoint x="350" y="320" as="sourcePoint" />
@@ -73,7 +73,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="I4kTET7mGh0sbGKaUOuE-8" value="article information" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;" edge="1" parent="1" target="I4kTET7mGh0sbGKaUOuE-3">
+        <mxCell id="I4kTET7mGh0sbGKaUOuE-8" value="article dictionary" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;" edge="1" parent="1" target="I4kTET7mGh0sbGKaUOuE-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="525.0000000000002" y="280" as="sourcePoint" />
             <mxPoint x="370.0000000000002" y="220" as="targetPoint" />
