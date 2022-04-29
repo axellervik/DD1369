@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T06:47:10.554Z" agent="5.0 (X11)" etag="qQcPh1COLidMVNdZWXaw" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-29T06:51:28.402Z" agent="5.0 (X11)" etag="rFoVb6ECOljPNHDc6Ira" version="17.1.2" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1196" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
           <mxGeometry x="45" y="80" width="10" height="310" as="geometry" />
         </mxCell>
         <mxCell id="I4kTET7mGh0sbGKaUOuE-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="50" y="210" width="10" height="110" as="geometry" />
+          <mxGeometry x="50" y="210" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="I4kTET7mGh0sbGKaUOuE-13" value="getArticle loop" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="-45" y="269.99999999999994" width="80" height="20" as="geometry" />
@@ -90,7 +90,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="15hRTUftiJXcHqlQ5vEX-1" value="MSA Engine" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="740" y="80" width="100" height="510" as="geometry" />
+          <mxGeometry x="920" y="80" width="100" height="510" as="geometry" />
         </mxCell>
         <mxCell id="15hRTUftiJXcHqlQ5vEX-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="15hRTUftiJXcHqlQ5vEX-1" vertex="1">
           <mxGeometry x="45" y="420" width="10" height="50" as="geometry" />
@@ -162,6 +162,22 @@
             <mxPoint y="550" as="sourcePoint" />
             <mxPoint x="10" y="550" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUgxDNZY3uOCsEVCVkqP-3" value="Lingua" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="80" width="100" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="kUgxDNZY3uOCsEVCVkqP-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="kUgxDNZY3uOCsEVCVkqP-3">
+          <mxGeometry x="45" y="340" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kUgxDNZY3uOCsEVCVkqP-5" value="parse html" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="I4kTET7mGh0sbGKaUOuE-3" target="kUgxDNZY3uOCsEVCVkqP-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="370" as="sourcePoint" />
+            <mxPoint x="615" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="420" />
+              <mxPoint x="700" y="420" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
